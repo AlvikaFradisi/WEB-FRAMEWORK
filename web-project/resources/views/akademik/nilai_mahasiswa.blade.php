@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,11 +32,11 @@
                 <div class="alert alert-success">Sangat Memuaskan</div>
             @break
 
-    @default
-        <div class="alert alert-warning">
-            Nilai tidak valid!
-        </div>
-@endswitch
+            @default
+                <div class="alert alert-warning">
+                    Nilai tidak valid!
+                </div>
+            @endswitch
 
             <table class="table table-bordered">
                 <tr class="text-md-center">
